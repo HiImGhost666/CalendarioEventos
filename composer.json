@@ -1,0 +1,22 @@
+{
+    "name": "pacomen/calendar",
+    "description": "Calendario de Evento generado con Faker",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.24",
+        "nesbot/carbon": "^3.10",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pacomen\\Calendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luke",
+            "email": "n3twork69@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
